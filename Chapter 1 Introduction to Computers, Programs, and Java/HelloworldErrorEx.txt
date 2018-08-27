@@ -1,0 +1,12 @@
+//Find out errors from the following program
+Puiblic clazz HelloworldEx(){
+publik voed main(string [[ args){
+system.out.printin(Hello World):
+}
+}
+Correct Ans.
+public class HelloworldEx{
+public static void main(String[] args){
+System.out.println("Hello World");
+}
+}

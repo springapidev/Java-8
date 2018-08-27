@@ -3,11 +3,12 @@
 //HelloWorld is the name of class, Always starts with Capital letter and camelCase system
 // {} is the body of class
 //We need to use semicolon ( ; ) end of every statement, it is mandatory
+//java is caseSensative
 public class HelloWorld{
 // class body contains class properties or members  or variables, methods or another class
 public static String msg;//only variable declaration
 public static String name="Arefin";//variable declaration and initialization 
-//A java program must need a main methods, like bellow
+//A java program must need a main method, like bellow
 //static is a java keyword/mofifer, it helps to call properties without object initiating
 
 public static void main(String[] args){

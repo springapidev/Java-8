@@ -1,0 +1,123 @@
+Chapter-1:
+==========1.5==============
+What is Java?
+Ans. Java is a powerful and versatile programming language for developing software 
+running on mobile devices, desktop computers, and servers.
+
+Who introduces Java programming? Describe.
+Ans. Java was developed by a team led by James Gosling 
+at Sun Microsystems. Sun Microsystems was purchased by Oracle in 2010. 
+Originally called Oak, Java was designed in 1991 for use in embedded chips in consumer
+ electronic appliances. 
+In 1995, renamed Java, it was redesigned for developing Web applications. For the history of 
+Java, see www.java.com/en/javahistory/index.jsp
+
+What is Platform Independent?
+Ans. write from one os and run anywhere.
+
+What are main features of Java?
+Ans. Java is Simple,object oriented,distributed,multiprogramming, multithreading,
+multiprocessing,interpreted,robust,secure,architecture  neutral,portable,high  
+performance,multi-threaded, and dynamic.
+ 
+Describe Java language.
+Ans.Java is a full-featured, general-purpose programming language that can be used to 
+develop robust mission-critical applications. 
+Today, it is employed not only for Web programming but also for developing standalone
+ applications across platforms on servers, desktop computers, and  mobile  devices. 
+
+It  was  used  to  develop  the  code  to  communicate  with  and  control  the  
+robotic rover on Mars. 
+
+
+What is Java applet?
+ Ans. Applets  employ  a  modern  graphical  interface  with  but- tons, text fields,
+ text areas, radio buttons, and so on, to interact with users on the Web and 
+process their requests. Applets make the Web responsive, interactive, and fun to use.
+ Applets are embedded in an HTML file. 
+
+What is HTML?
+Ans. (Hypertext Markup Language) is a simple scripting language for laying out documents, 
+linking documents on the Internet, and bringing images, sound, and video alive on the Web.
+ 
+Describe rich Internet appli-cations.
+ Ans. Today, you can use Java to develop rich Internet appli-cations. A rich Internet 
+ application (RIA) is a Web application designed to deliver the same 
+features and functions normally associated with deskop applications.
+
+What is the cause behind the popularity for developing applications using Java?
+Ans. Java is now very popular for developing applications on Web servers. These applications 
+process  data,  perform  computations,  and  generate  dynamic  Web  pages.  Many  commercial  
+Websites are developed using Java on the backend. 
+
+Is Java a versatile programming language? Why?
+Ans. Yes, Java is a versatile programming language: you can use it to develop applications for
+ desk-top computers, servers, and small handheld devices. The software for Android cell
+ phones is developed using Java. 
+
+Who invented Java? Which company owns Java now?
+Ans. Java was invented by a team led by James Gosling 
+at Sun Microsystems. Sun Microsystems was purchased by Oracle in 2010. 
+
+What programming language does Android use?
+Ans. Java
+=================1.6 =============== , API, JDK, and IDE
+What is the Java Language Specification?
+Ans.Java syntax is defined in the Java language specification. Java  language  
+specification  is  a  technical  definition  of  the  Java  programming  
+language’s syntax and semantics.
+
+What is Java library?
+Ans. Java library is defined in the Java API.
+
+What is the JDK?
+Ans. JDK stands for Java Development Kit. The JDK is the software for developing and running Java 
+programs. 
+
+What is IDE?
+Ans. An IDE is an integrated development environment for rapidly developing programs.
+Computer languages have strict rules of usage. If you do not follow the rules when writing a 
+program, the computer will not be able to understand it. 
+
+Who define java Standards?
+Ans. The Java language specification and 
+the Java API define the Java standards.
+
+What is API?
+Ans. API stands for The application  program  interface,  also  known  as  
+library, contains  predefined  classes  and  interfaces  for  developing  Java  programs. 
+The  API  is  still  expanding. 
+Is Java a full-fledged language? Why?
+Ans. Java is a full-fledged and powerful language that can be used in many ways.
+ It comes in three editions:
+ ■ Java Standard  Edition (Java  SE) to  develop  client-side  applications.  
+ The  applica-tions can run standalone or as applets running from a Web browser.
+ ■  Java Enterprise Edition (Java EE) to develop server-side applications, such as Java 
+servlets, JavaServer Pages (JSP), and JavaServer Faces (JSF).
+ ■ Java Micro Edition (Java ME) to develop applications for mobile devices, such as 
+cell phones.
+
+Describe JDK.
+Ans. The JDK consists of a set of separate programs, each invoked from a command line, for 
+developing and testing Java programs. 
+What are advantages of using IDE?
+Ans. Instead of using the JDK, you can use a Java devel-
+opment  tool  (e.g.,  NetBeans,  Eclipse,  and  TextPad)—software  that  provides  an  
+integrated development environment (IDE) for developing Java programs quickly.
+
+Editing, compiling,building, debugging, and online help are integrated in one graphical user interface. You simply
+enter source code in one window or open an existing file in a window, and then click a button 
+or menu item or press a function key to compile and run the program.
+
+
+
+
+
+
+
+
+
+
+
+
+
