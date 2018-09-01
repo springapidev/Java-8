@@ -1,0 +1,14 @@
+Java Quiz Test 01 (One) , Date: 28/08/2018
+
+1.What is Java?
+2.What is Platform Independent?
+3.What are main features of Java?
+4. What is Java applet?
+5.Is Java a versatile programming language? Why?
+6.What is the Java Language Specification?
+7. What is Java library?
+8.What is the JDK?
+9.What is API?
+10. Describe the relations amongest the Bit, Byte, 
+    MagaByte and GigaByte.
+
