@@ -1,0 +1,7 @@
+Evidence-01:
+1. Write a program to display current seconds, minutes and Hours.
+2. We know Integer is 32 bits, then calculate the positive Range of Integer.
+3. There is a variable like int x=10; Keep this variable x as the value 
+	of y whose type is long.
+4. Write a program which contain a numeric litreral.
+5. Write a program which contain a augmented operator.
