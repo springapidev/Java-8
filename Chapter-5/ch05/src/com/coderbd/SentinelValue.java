@@ -15,7 +15,7 @@ public class SentinelValue {
 
     // Keep reading data until the input is 0
     int sum = 0;
-    while (data != 0) {
+    while (data !=0) {
       sum += data;
 
       // Read the next data
