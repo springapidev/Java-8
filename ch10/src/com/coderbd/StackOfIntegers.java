@@ -1,4 +1,4 @@
-package chapter10;
+package com.coderbd;
 
 public class StackOfIntegers {
   private int[] elements;
