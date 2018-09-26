@@ -5,7 +5,7 @@ import java.io.File;
 public class TestFile {
 
     public static void main(String[] args) throws Exception {
-/*
+        /*
         File newFile = new File("hasina.al");
         printFileDetails(newFile);
 // Create a new file
@@ -29,7 +29,7 @@ public class TestFile {
         System.out.println("After using deleteOnExit() method:");
         printFileDetails(newFile);
 
-*/
+         */
 
 // Create a new file and rename it
         File firstFile = new File("my_first_file.txt");
@@ -45,7 +45,7 @@ public class TestFile {
             printFileDetails(firstFile);
             printFileDetails(secondFile);
         }
-     
+
     }
 
     public static void printFileDetails(File f) {

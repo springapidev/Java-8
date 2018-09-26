@@ -6,12 +6,12 @@ public class TestRandomAccessFile {
 
     public static void main(String[] args) throws IOException {
         try ( // Create a random access file
-                RandomAccessFile inout = new RandomAccessFile("inout.dat", "rw");) {
+                RandomAccessFile inout = new RandomAccessFile("inout.txt", "rw");) {
             // Clear the file to destroy the old contents if exists
             inout.setLength(0);
 
             // Write new integers to the file
-            for (int i = 0; i < 200; i++) {
+            for (int i = 0; i < 100; i++) {
                 inout.writeInt(i);
             }
 
@@ -32,6 +32,8 @@ public class TestRandomAccessFile {
 
             // Modify the eleventh number
             inout.writeInt(555);
+             inout.seek(11 * 4); // Move the file pointer to the tenth number
+            System.out.println("The 12th number is " + inout.readInt());
 
             // Append a new number
             inout.seek(inout.length()); // Move the file pointer to the end

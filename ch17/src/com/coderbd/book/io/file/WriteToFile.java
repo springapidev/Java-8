@@ -6,8 +6,8 @@ import java.io.FileWriter;
 public class WriteToFile {
 
     public static void main(String[] args) {
-        String destFile = "my_second_file.israt";
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(destFile))) {
+        
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("my_second_file.israt"))) {
             bw.append("Dhaka");
             bw.newLine();
             bw.append(" Is");
@@ -15,6 +15,9 @@ public class WriteToFile {
             bw.append(" The");
             bw.newLine();
             bw.append(" Capital");
+             bw.newLine();
+             bw.append(" Wednesday");
+            bw.newLine();
             bw.flush();
         } catch (Exception e2) {
             e2.printStackTrace();
