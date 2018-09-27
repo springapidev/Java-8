@@ -17,7 +17,7 @@ public class DirectArray {
         displayArrays(5, 8, 4, 5, 4, 5, 4,4,57,8,78,5,78,8);
     }
     
-    static void displayArrays(int... n) {
+    static void displayArrays(int... n) {       
         System.out.println(Arrays.toString(n));
     }
 }

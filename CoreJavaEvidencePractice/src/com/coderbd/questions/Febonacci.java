@@ -1,4 +1,6 @@
-package com.coderbd;
+package com.coderbd.questions;
+
+import com.coderbd.*;
 
 public class Febonacci {
 
