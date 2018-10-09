@@ -8,7 +8,7 @@ public class CreateLargeFile {
       new BufferedOutputStream(
       new FileOutputStream("largedata.dat")));
 
-    for (int i = 0; i < 800004; i++)
+    for (int i = 0; i < 20000; i++)
       output.writeInt((int)(Math.random() * 1000000));
 
     output.close();
