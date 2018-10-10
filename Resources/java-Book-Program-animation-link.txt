@@ -1,1 +1,4 @@
 http://www.cs.armstrong.edu/liang/animation/animation.html
+All chapters checkpoints answer and questions.
+
+https://liveexample.pearsoncmg.com/checkpoint/Chapter17.html
