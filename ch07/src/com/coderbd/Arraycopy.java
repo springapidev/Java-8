@@ -8,7 +8,7 @@ public class Arraycopy {
 
     public static void main(String[] args) {
         int sourceArray[] = {2, 6, 8, 5};
-        // 0   1   2   3
+                          // 0  1  2  3
         int targetArray[] = new int[sourceArray.length];
         for (int i = 0; i < sourceArray.length; i++) {
             targetArray[i] = sourceArray[i];
@@ -26,7 +26,7 @@ public class Arraycopy {
         }
 
         System.out.println("===========Array Copy===========");
-        int s[] = {1, 3, 5,7};
+        int s[] = {1, 3, 5, 7};
         int t[] = new int[10];
 
         System.arraycopy(s, 1, t, 7, 3);
