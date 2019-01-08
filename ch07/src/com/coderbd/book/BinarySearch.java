@@ -6,8 +6,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] x = {4, 6, 5, 82, 71, 9, 75, 8, 45, 7, 18};
-        System.out.println("Index: " + binarySearch(x, 82));
-        System.out.println("Status: " + isPresent(x, 182));
+        System.out.println("Index: " + binarySearch(x, 5));
+        System.out.println("Status: " + isPresent(x, 5));
     }
 
     /**
@@ -38,9 +38,9 @@ public class BinarySearch {
             int mid = (low + high) / 2;
             if (key < list[mid]) {
                 high = mid - 1;
-            }else if (key > list[mid]) {
+            } else if (key > list[mid]) {
                 low = mid + 1;
-            }else if (key == list[mid]) {
+            } else if (key == list[mid]) {
                 return true;
             }
         }

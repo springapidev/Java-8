@@ -3,8 +3,8 @@ package com.coderbd.book;
 public class VarArgsDemo {
 
     public static void main(String args[]) {
-        printMax(34, 3, 3, 2, 56.5);
-      //  printMax(new double[]{1, 2, 3});
+        printMax(34, 3, 3, 2, 56.5, 11, 60, 'A');
+        //  printMax(new double[]{1, 2, 3});
     }
 
     public static void printMax(double... numbers) {
@@ -13,7 +13,7 @@ public class VarArgsDemo {
             return;
         }
 
-        double result = numbers[0];
+        double result = numbers[0];//34
 
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] > result) {

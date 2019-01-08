@@ -16,10 +16,10 @@ public class Animal extends Object{
     }
 //argumentative constructor
 
-    public Animal(String name, String color, double age, String race) {
+    public Animal(String name, String colors, double age, String race) {
         //this means current instance
         this.name = name;
-        this.color = color;
+        color = colors;
         this.age = age;
         this.race = race;
     }
@@ -49,19 +49,7 @@ public class Animal extends Object{
         System.out.println("Animal Can bark");
     }
 
-    public static void main(String[] args) {
-        Animal tommy = new Animal();
-        //First Animal is Class Refernece
-        //a1 is object name
-        // = is operator
-        // new is operator for creating Object
-        // Last Animal is Constructor
-        Animal jerry = new Animal();
-        Animal animal500 = new Animal("Mr Nova", "Gray", 20.5, "ASIAN");
-        System.out.println(animal500);
-        System.out.println(jerry);
-    }
-
+   
     @Override
     public String toString() {
         return "Animal{" + "name=" + name + ", color=" + color + ", age=" + age + ", race=" + race + '}';

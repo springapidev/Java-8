@@ -4,7 +4,8 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int[] x = {4, 6, 5, 82, 71, 9, 75, 8, 45, 7, 18};
-        System.out.println("Status: " + ispresentByLinearSearch(x, 175));
+        System.out.println("Status: " + ispresentByLinearSearch(x, 6));
+         System.out.println("index: " + linearSearch(x, 6));
     }
 
     /**

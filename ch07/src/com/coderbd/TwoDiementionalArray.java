@@ -11,7 +11,7 @@ public class TwoDiementionalArray {
             {7, 8, 9},
             {1, 4, 7, 9}
         };
-        System.out.println("twoD[2][1]:" + twoD[2][1]);
+        System.out.println("twoD[2][1]:" + twoD[2][3]);
 
         for (int oneD[] : twoD) {
             for (int i : oneD) {
