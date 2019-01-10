@@ -25,6 +25,7 @@ public class PalindomEx {
         }
         return status;
     }
+
     public static int countPalindom(String[] s) {
         int counter = 0;
         for (int i = 0; i < s.length; i++) {
