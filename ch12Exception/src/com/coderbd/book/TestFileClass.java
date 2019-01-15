@@ -1,11 +1,12 @@
 package com.coderbd.book;
 
+import java.io.File;
 import java.io.IOException;
 
 public class TestFileClass {
 
     public static void main(String[] args) throws IOException {
-        java.io.File file = new java.io.File("us.gif");
+        File file = new File("dhaka.png");
         file.createNewFile();
         System.out.println("Does it exist? " + file.exists());
         System.out.println("The file has " + file.length() + " bytes");

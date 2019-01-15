@@ -3,20 +3,29 @@ package com.coderbd.ex3;
 public class Ex3 {
 
     public static void main(String[] args) {
-        System.out.println("1111111111111");
+
+        System.out.println("Ok");
         try {
             System.out.println(10 / 0);
-        } catch (Exception e) {
+            System.out.println("After error");
+            System.out.println(Integer.parseInt("TEN"));
+        } catch (NumberFormatException ne) {
+            System.out.println(":::Number format Exception:::");
+        } catch (ArithmeticException e) {
             System.out.println("You can not divide by zero");
+
+        } finally {
+            System.out.println("Finally..............");
         }
-        System.out.println("2222222222222");
+
+        System.out.println("Hiiiiiiii");
         try {
             System.out.println(Integer.parseInt("TEN"));
-        } catch (Exception e) {
-            System.out.println("You can not parse TEN, FIVE etc");
+        } catch (NumberFormatException e) {
+            System.out.println("Number format Exception");
         }
-        
-        System.out.println("3333333333333333333333333");
+
+        System.out.println("Last point");
 
     }
 }

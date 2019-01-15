@@ -10,13 +10,23 @@ public class B extends A {
     double salary;
 
     public B() {
+        super();
     }
 
     public B(double salary) {
         this.salary = salary;
     }
 
-    public B(double salary, int id, String name, String color) {
+    public B(int id, String name) {
+        super(id, name);
+    }
+
+    public B(double salary, int id, String name) {
+        super(id, name);
+        this.salary = salary;
+    }
+
+    public B(double salary, int id, String name, byte color) {
         super(id, name, color);
         this.salary = salary;
     }

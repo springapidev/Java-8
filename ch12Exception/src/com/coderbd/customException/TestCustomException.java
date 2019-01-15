@@ -11,7 +11,7 @@ public class TestCustomException {
 
     public static void main(String[] a) {
         try {
-            TestCustomException.myTestmethod(null);
+            TestCustomException.myTestmethod("Okkkkkkkkkkk");
         } catch (CustomException ex) {
             Logger.getLogger(TestCustomException.class.getName()).log(Level.SEVERE, null, ex);
         }

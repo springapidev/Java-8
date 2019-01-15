@@ -1,8 +1,5 @@
 package com.coderbd.customException;
-/**
- *
- * @author J2EE-33
- */
+
 public class CustomException extends Exception {
 
     private String message = null;

@@ -8,8 +8,8 @@ public class Ex6Finally {
         try {
             System.out.println(10 / 10);
             System.out.println(Integer.parseInt("TEN"));
-        } catch (ArithmeticException | NumberFormatException moly) {
-            System.out.println("wow ki error");
+        } catch (ArithmeticException | NumberFormatException e) {
+          e.printStackTrace();
         }
         System.out.println("2222222222222");
 

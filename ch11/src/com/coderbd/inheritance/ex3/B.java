@@ -1,9 +1,5 @@
 package com.coderbd.inheritance.ex3;
 
-/**
- *
- * @author User
- */
 public class B extends A {
 
     @Override
@@ -13,6 +9,6 @@ public class B extends A {
 
     public void sayHi() {
         super.sayHello();
-        System.out.println("Hi, Israt, I am from B class, sayHi Method");
+        System.out.println("Hi, Shuvo, I am from B class, sayHi Method");
     }
 }

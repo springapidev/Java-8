@@ -1,9 +1,5 @@
 package com.coderbd.baringChiti;
 
-/**
- *
- * @author User
- */
 public class Ex2 {
 
     public static void main(String[] args) {

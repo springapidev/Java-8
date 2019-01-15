@@ -1,7 +1,5 @@
 package com.coderbd.inheritance.ex2;
 
-
-
 public class A {
 
     int id;
@@ -18,6 +16,6 @@ public class A {
     }
 
     public void sayhello() {
-        System.out.println("Hi, How are you?");
+        System.out.println("Hi, How are you? From class A");
     }
 }

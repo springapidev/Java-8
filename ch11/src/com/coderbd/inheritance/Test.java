@@ -9,6 +9,7 @@ public class Test {
         ////////////BUT........../////////////////////
         // B a2 = new A();//wrong, child can not be reference of parent
 
+        System.out.println(a1 instanceof B);
     }
 
 }
