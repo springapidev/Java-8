@@ -1,7 +1,6 @@
 package com.coderbd.book;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class DetectEndOfFile {
 

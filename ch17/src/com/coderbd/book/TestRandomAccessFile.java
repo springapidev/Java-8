@@ -32,9 +32,9 @@ public class TestRandomAccessFile {
 
             // Modify the eleventh number
             inout.writeInt(555);
-             inout.seek(11 * 4); // Move the file pointer to the tenth number
+            inout.seek(11 * 4); // Move the file pointer to the tenth number
             System.out.println("The 12th number is " + inout.readInt());
-
+            inout.writeInt(20000);
             // Append a new number
             inout.seek(inout.length()); // Move the file pointer to the end
             inout.writeInt(999);
@@ -43,7 +43,7 @@ public class TestRandomAccessFile {
             System.out.println("The new length is " + inout.length());
 
             // Retrieve the new eleventh number
-            inout.seek(10 * 4); // Move the file pointer to the eleventh number
+            inout.seek(12 * 4); // Move the file pointer to the eleventh number
             System.out.println("The eleventh number is " + inout.readInt());
         }
     }

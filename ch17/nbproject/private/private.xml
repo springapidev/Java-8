@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/J2EE/Java-8/ch17/src/com/coderbd/book/TestDataStream.java</file>
+            <file>file:/D:/J2EE/Java-8/ch17/src/com/coderbd/book/TestRandomAccessFile.java</file>
+            <file>file:/D:/J2EE/Java-8/ch17/src/com/coderbd/book/TestFileStream.java</file>
+            <file>file:/D:/J2EE/Java-8/ch17/src/com/coderbd/book/Copy.java</file>
+        </group>
     </open-files>
 </project-private>

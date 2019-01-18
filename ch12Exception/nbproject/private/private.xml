@@ -3,12 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/book/CircleWithException.java</file>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/equals/Circle.java</file>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/ref/B.java</file>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/book/ChainedExceptionDemo.java</file>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/ref/A.java</file>
-            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/equals/Test.java</file>
+            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/book/ReadFileFromURL.java</file>
+            <file>file:/D:/J2EE/Java-8/ch12Exception/src/com/coderbd/book/WebCrawler.java</file>
         </group>
     </open-files>
 </project-private>

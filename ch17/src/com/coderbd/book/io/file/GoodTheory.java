@@ -1,7 +1,11 @@
-
 package com.coderbd.book.io.file;
+
 public class GoodTheory {
-   /*
+    /*
+    https://docs.oracle.com/javase/tutorial/essential/io/streams.html
+    
+    https://docs.oracle.com/javase/tutorial/essential/io/buffers.html
+    
     Look: https://www.quora.com/What-is-the-difference-between-buffers-in-Java-io-and-buffers-in-Java-nio
     Java io
 
@@ -92,5 +96,5 @@ We can create a selector by calling Selector.open() method, as given below:
     Selector selector = Selector.open(); 
 
 
-    */ 
+     */
 }

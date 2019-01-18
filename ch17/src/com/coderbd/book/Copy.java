@@ -19,7 +19,7 @@ public class Copy {
                 = new BufferedInputStream(new FileInputStream("source.dat"));
                 // Create an output stream
                 BufferedOutputStream output
-                = new BufferedOutputStream(new FileOutputStream("target.dat"));) {
+                = new BufferedOutputStream(new FileOutputStream("minhaz.dat"));) {
             // Continuously read a byte from input and write it to output
             int r, numberOfBytesCopied = 0;
             while ((r = input.read()) != -1) {

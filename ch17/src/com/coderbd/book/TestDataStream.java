@@ -15,6 +15,9 @@ public class TestDataStream {
             output.writeDouble(185.5);
             output.writeUTF("George");
             output.writeDouble(105.25);
+            output.writeDouble(55.25);
+             output.writeDouble(55.25);
+              output.writeDouble(55.25);
         }
 
         try ( // Create an input stream for file temp.dat
@@ -24,6 +27,8 @@ public class TestDataStream {
             System.out.println(input.readUTF() + " " + input.readDouble());
             System.out.println(input.readUTF() + " " + input.readDouble());
             System.out.println(input.readUTF() + " " + input.readDouble());
+            File file = new File("temp.dat");
+            System.out.println(file.length());
         }
     }
 }
