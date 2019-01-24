@@ -8,7 +8,7 @@ public class GenericMethodDemo {
 
         GenericMethodDemo.<Integer>print(integers);
         GenericMethodDemo.<String>print(strings);
-         GenericMethodDemo.<Integer>print(integers);
+        GenericMethodDemo.<Integer>print(integers);
         GenericMethodDemo.<String>print(strings);
     }
 

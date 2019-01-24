@@ -18,13 +18,21 @@ public class TestArrayAndLinkedList {
         System.out.println(arrayList);
 
         LinkedList<Object> linkedList = new LinkedList<>(arrayList);
-        linkedList.add(1, "red");
-        linkedList.removeLast();
+        linkedList.add(5, "red");
+        // linkedList.removeLast();
         linkedList.addFirst("green");
-
+        linkedList.addFirst("Orange");
+        linkedList.addLast("BD");
+        linkedList.add("yellow");
+        linkedList.addFirst("Dhaka");
+        linkedList.addLast("Chitagong");
         System.out.println("Display the linked list backward:");
-        for (int i = linkedList.size() - 1; i >= 0; i--) {
+        for (int i = 0; i <= linkedList.size() - 1; i++) {
             System.out.print(linkedList.get(i) + " ");
         }
+//        System.out.println("");
+//        for (int i = linkedList.size() - 1; i >= 0; i--) {
+//            System.out.print(linkedList.get(i) + " ");
+//        }
     }
 }

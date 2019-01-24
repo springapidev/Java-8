@@ -70,7 +70,7 @@ public class MultipleBounceBall extends Application {
 
         public void add() {
             Color color = new Color(Math.random(),
-                    Math.random(), Math.random(), 0.5);
+                    Math.random(), Math.random(), 1.0);
             getChildren().add(new Ball(30, 30, 20, color));
         }
 

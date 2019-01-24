@@ -2,3 +2,9 @@ http://www.cs.armstrong.edu/liang/animation/animation.html
 All chapters checkpoints answer and questions.
 
 https://liveexample.pearsoncmg.com/checkpoint/Chapter17.html
+
+Recursion Animation:
+https://blog.penjee.com/how-recursion-works-in-7-gifs/
+https://www.cs.usfca.edu/~galles/visualization/RecFact.html
+
+https://www.codelike.in/animation/doubly-linked-list

@@ -1,6 +1,5 @@
 package com.coderbd;
 
-import static java.lang.Math.E;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,9 +12,8 @@ public class BasicGenreics {
         list.add(new String("abc"));
         list.add(12);
         list.add("bd");
+        list.add(new Double("50000"));
         list.add("bd");
-        list.add("bd");
-
         list.forEach(System.out::println);
 
         System.out.println("12 is : " + list.contains(12));
@@ -33,8 +31,15 @@ public class BasicGenreics {
 
         List<Integer> intList = new ArrayList();
         intList.add(1000);
+        // intList.add("Ok");//wrong
+
+        List<String> strList = new ArrayList();
+        // strList.add(100000);// Wrong
+        strList.add("Ok");
+
+        String s = strList.get(0);
+        String nog = (String) list.get(1);
 
     }
 
- 
 }
