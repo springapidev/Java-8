@@ -27,6 +27,7 @@ public class TestMethodsInCollection {
     set2.add("London");
     set2.add("Shanghai");
     set2.add("Paris");
+   
     System.out.println("\nset2 is " + set2);
     System.out.println(set2.size() + " elements in set2");
 
@@ -37,10 +38,11 @@ public class TestMethodsInCollection {
     System.out.println("\nAfter adding set2 to set1, set1 is "
       + set1);
 
-    set1.removeAll(set2);
+  //  set1.removeAll(set2);
     System.out.println("After removing set2 from set1, set1 is "
       + set1);
-
+ System.out.println("Set2 "
+      + set2);
     set1.retainAll(set2);
     System.out.println("After removing common elements in set2 "
       + "from set1, set1 is " + set1);
