@@ -6,8 +6,8 @@ import java.util.logging.Logger;
 public class TestDeadlockExample {
 
     public static void main(String[] args) {
-        final String resource1 = "Israt Aker";
-        final String resource2 = "Rozina Akter";
+        final String resource1 = "Shuvo";
+        final String resource2 = "Rony";
         // t1 tries to lock resource1 then resource2  
         Thread t1 = new Thread() {
             public void run() {
