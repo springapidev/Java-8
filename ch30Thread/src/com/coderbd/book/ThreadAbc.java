@@ -19,7 +19,7 @@ public class ThreadAbc {
                 } catch (InterruptedException ex) {
                     Logger.getLogger(ThreadAbc.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                 System.out.println("Sum: " + sum);
+                System.out.println("Sum: " + sum);
             }
         });
         t.start();

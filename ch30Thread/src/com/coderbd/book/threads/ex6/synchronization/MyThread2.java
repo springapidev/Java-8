@@ -8,6 +8,7 @@ public class MyThread2 extends Thread{
         this.t = t;
     }
 
+    @Override
     public void run() {
         t.printTable(100);
     }

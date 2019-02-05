@@ -8,9 +8,9 @@ import java.util.stream.LongStream;
 public class ForkJoinSum extends RecursiveTask<Long> {
 
     public static void main(String[] args) {
-        long s = System.currentTimeMillis();      
-        System.out.println("Sum from Fork Join: "+ForkJoinSum.startForkJoinSum(1_000_000_00));
-        
+        long s = System.currentTimeMillis();
+        System.out.println("Sum from Fork Join: " + ForkJoinSum.startForkJoinSum(1_000_000_00));
+
         long e = System.currentTimeMillis();
         long ms = e - s;
         System.out.println("Time in ms: " + ms);
@@ -23,7 +23,7 @@ public class ForkJoinSum extends RecursiveTask<Long> {
         }
         long e1 = System.currentTimeMillis();
         long ms1 = e1 - s1;
-        System.out.println("Time in ms: " + ms1+" Sum: "+sum);
+        System.out.println("Time in ms: " + ms1 + " Sum: " + sum);
     }
     private final long[] numbers;
     private final int start;
@@ -75,3 +75,5 @@ public class ForkJoinSum extends RecursiveTask<Long> {
     }
 
 }
+//https://www.pluralsight.com/guides/introduction-to-the-fork-join-framework
+//https://www.codejava.net/java-core/concurrency/understanding-java-fork-join-framework-with-examples

@@ -1,4 +1,4 @@
-package com.coderbd.ex71.threads.ex6.synchronization.synchronizedblock;
+package com.coderbd.book.threads.ex6.synchronization.synchronizedblock;
 
 public class SynchronizedBlockEx {
 

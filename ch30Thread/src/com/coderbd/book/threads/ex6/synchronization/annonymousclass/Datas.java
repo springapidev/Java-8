@@ -1,4 +1,4 @@
-package com.coderbd.ex71.threads.ex6.synchronization.annonymousclass;
+package com.coderbd.book.threads.ex6.synchronization.annonymousclass;
 
 public class Datas {
 
