@@ -18,6 +18,7 @@ public class InsertionSort {
              * insert list[i] into a sorted sublist list[0..i-1] so that
              * list[0..i] is sorted.
              */
+            //  int[] arr = {2, 9, 5, 4};
             int currentElement = list[i];
             System.out.println("Current: " + currentElement);
             int k;
