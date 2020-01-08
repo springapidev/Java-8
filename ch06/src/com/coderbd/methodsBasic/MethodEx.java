@@ -3,11 +3,16 @@ package com.coderbd.methodsBasic;
 public class MethodEx {
 
     String abc;
-    String msg = "Hello programmers";
+    static String msg = "Hello programmers";
 
     //Main Method
     public static void main(String[] args) {
-
+        
+        MethodEx.display7();
+        MethodEx obj = new MethodEx();
+        obj.display8();
+        obj.display7();
+        obj.display();
     }
 //////////////////////////Methods//////////////
     // 1. access modifer like public/ protected/private/default
@@ -19,7 +24,7 @@ public class MethodEx {
     If type is void, then method will not return anything*/
  /*
     Synatx of Method
-    <access Modifer>+<Data Type>+Method Name>
+    <access Modifer>+<Non-access Modifer is optional>+<Data Type>+Method Name>
     +(parameter is optional)+{Body is optional, 
     BUT most cases Body thakbe}
      */
@@ -55,5 +60,19 @@ public class MethodEx {
     public String display6() {
         return msg;
     }
+    //Method 7
 
+    public static String display7() {
+        return msg;
+    }
+    //Method 8
+
+    public final String display8() {
+        return msg;
+    }
+    //Method 9
+
+    public float display9() {
+        return 50;
+    }
 }

@@ -3,7 +3,7 @@ package com.coderbd;
 public class PrimeNumberMethod {
   public static void main(String[] args) {
     System.out.println("The first 50 prime numbers are \n");
-    printPrimeNumbers(50);
+    printPrimeNumbers(20);
   }
 
   public static void printPrimeNumbers(int numberOfPrimes) {

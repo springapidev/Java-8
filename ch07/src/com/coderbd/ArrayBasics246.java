@@ -1,5 +1,7 @@
 package com.coderbd;
 
+import java.util.Arrays;
+
 public class ArrayBasics246 {
 
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class ArrayBasics246 {
         System.out.println(" doubleArr[0]: " + doubleArr[0]);
 
         int intArray[] = {5, 10, 15, 20, 25};
+        Arrays.sort(intArr);
         System.out.println("Min: " + intArray[0]);
         System.out.println("Max: " + intArray[intArray.length - 1]);
         System.out.println("20: " + intArray[3]);

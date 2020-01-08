@@ -6,11 +6,12 @@ public class MethodEx4 {
     static int y = 200;
 
     public static void main(String[] args) {
+       final int p = 25;
         MethodEx4 m = new MethodEx4();
         m.x = 20;
 
         y = 500;
-        y=202;
+        y = 202;
         System.out.println("X: " + m.x + " Y: " + y);
 
     }

@@ -9,8 +9,8 @@ public class ArraySorting {
         //Sort array
         Arrays.sort(x);
         //ArrayAsmethodArguments.displayArray(x);
-        for (int rekha : x) {
-            System.out.print(rekha + " ");
+        for (int maria : x) {
+            System.out.print(maria + " ");
         }
 
     }

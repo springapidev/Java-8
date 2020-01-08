@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayReverse {
 
     public static void main(String[] args) {
-        int x[] = {5, 8, 7, 8, 15, 25, 78, 99, 11}; //Length 3   
+        int x[] = {5, 8, 7, 8, 15, 25, 78, 99, 11}; //Length    
         //Index    0  1  2
         Arrays.sort(x);
         int newArray[] = new int[x.length];
