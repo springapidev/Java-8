@@ -29,7 +29,7 @@ public class Arraycopy {
         int s[] = {1, 3, 5, 7};
         int t[] = new int[10];
 
-        System.arraycopy(s, 1, t, 7, 3);
+        System.arraycopy(s, 2, t, 0, 2);
         for (int p : t) {
             System.out.print(p + " ");
         }
