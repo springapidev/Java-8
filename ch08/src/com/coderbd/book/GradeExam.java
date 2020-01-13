@@ -15,7 +15,8 @@ public class GradeExam {
             {'A', 'B', 'D', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
             {'B', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
             {'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
-            {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};
+            {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+            {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'}};
 
         // Key to the questions
         char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
@@ -29,10 +30,14 @@ public class GradeExam {
                     correctCount++;
                 }
             }
-
-            System.out.println("Student " + i + "'s correct count is "
-                    + correctCount);
+            if (correctCount == 10) {
+                System.out.println("Student " + i  + "'s correct count is "
+                        + (correctCount+1));
+            } else {
+                System.out.println("Student " + i + "'s correct count is "
+                        + correctCount);
+            }
         }
-      
     }
+
 }
