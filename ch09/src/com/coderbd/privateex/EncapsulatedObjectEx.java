@@ -32,6 +32,10 @@ public class EncapsulatedObjectEx {
     public static int getId() {
         return id;
     }
+
+    public static void setId(int id) {
+        EncapsulatedObjectEx.id = id;
+    }
    
    
 }
