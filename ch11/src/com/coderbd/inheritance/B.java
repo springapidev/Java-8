@@ -31,4 +31,8 @@ public class B extends A {
         this.salary = salary;
     }
 
+    public void sayHi() {
+
+        super.sayhello();
+    }
 }

@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 public class WriteData {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("bd.txt");
+        File file = new File("bdc.mejba");
         file.delete();
         if (file.exists()) {
             System.out.println("File already exists");
@@ -17,11 +17,11 @@ public class WriteData {
        PrintWriter output = new PrintWriter(file);
 
         // Write formatted output to the file
-        output.print("John T Smith ");
+        output.print("Mesba ");
         output.println(90);
-        output.print("Eric K Jones ");
+        output.print("Mijan ");
         output.println(85);
-        output.print("Sheikh M Hasina ");
+        output.print("Milton ");
         output.println(74);
 
         // Close the file

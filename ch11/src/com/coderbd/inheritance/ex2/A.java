@@ -15,7 +15,7 @@ public class A {
         this.color = color;
     }
 
-    public void sayhello() {
+    public void sayHello() {
         System.out.println("Hi, How are you? From class A");
     }
 }

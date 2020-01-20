@@ -21,7 +21,6 @@ public class Ex2 {
         int rs = x / y;
         return rs;
     }
-
     //Q. String value  "1","5","100","5654" K int e transfer korbo HOW?
     /*
     Explanation: input: String and output: int
@@ -34,7 +33,6 @@ public class Ex2 {
         } catch (Exception e) {
             System.out.println("You can not Parse String Like Ten, Five etc");
         }
-
         return rs;
     }
 }

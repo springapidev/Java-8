@@ -1,6 +1,6 @@
 package com.coderbd.inheritance;
 
-public class A extends Object{
+public class A {
 
     int id;
     String name;
@@ -41,6 +41,13 @@ public class A extends Object{
         this.id = id;
         this.name = name;
         this.color = color;
+    }
+//copy constructor
+
+    public A(A a) {
+        this.id = a.id;
+        this.name = a.name;
+        this.color = a.color;
     }
 
     public void sayhello() {
