@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.coderbd.day19.comparable.ex3;
+package com.coderbd.interfaces.comparable.ex3;
 
 import java.util.*;
 

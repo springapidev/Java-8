@@ -1,7 +1,6 @@
 package com.coderbd.interfaces;
 
-public interface Edible {
+public interface Edible1 {
 
-    String howToEat();// By default it is abstract method, so it has no body
-    
+   int makeSum();
 }

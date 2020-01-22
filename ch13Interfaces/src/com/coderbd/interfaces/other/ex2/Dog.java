@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.coderbd.day8.interfaces.ex2;
+package com.coderbd.interfaces.other.ex2;
 
 /**
  *

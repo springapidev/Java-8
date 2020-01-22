@@ -1,4 +1,4 @@
-package com.coderbd.day8.interfaces.ex2;
+package com.coderbd.interfaces.other.ex2;
 
 /**
  *

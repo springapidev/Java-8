@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.coderbd.day19.comparable.ex3;
+package com.coderbd.interfaces.comparable.ex3;
 
 /**
  *
@@ -14,7 +14,8 @@ class Student {
     int rollno;
     String name;
     int age;
-
+int x,y;
+int p=10,q=20;
     Student(int rollno, String name, int age) {
         this.rollno = rollno;
         this.name = name;

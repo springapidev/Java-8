@@ -31,8 +31,8 @@ public class ComparableStudent implements Comparable<ComparableStudent> {
     -1 for placing it before in Collection
 0 indicates same value already exists in Collection
 +1 for placing it afterwards in Collection
-    */
-    /*
+     */
+ /*
  @Override
     public int compareTo(ComparableStudent s) {
         int result = this.name.compareTo(s.getName());
@@ -51,8 +51,8 @@ public class ComparableStudent implements Comparable<ComparableStudent> {
     }
 
     public static void main(String[] args) {
-        ComparableStudent com = new ComparableStudent("Munna", 100, 23);
-        int rs = com.compareTo(new ComparableStudent("Rahidul", 100, 23));
+        ComparableStudent com = new ComparableStudent("Munna", 100, 25);
+        int rs = com.compareTo(new ComparableStudent("Rahidul", 101, 24));
         System.out.println("Rs: " + rs);
     }
 }
