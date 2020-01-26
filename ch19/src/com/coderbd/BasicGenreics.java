@@ -31,7 +31,7 @@ public class BasicGenreics {
 
         List<Integer> intList = new ArrayList();
         intList.add(1000);
-        // intList.add("Ok");//wrong
+        //  intList.add("OK");//wrong
 
         List<String> strList = new ArrayList();
         // strList.add(100000);// Wrong
