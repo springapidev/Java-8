@@ -25,7 +25,6 @@ public class PriorityQueueCustomComparatorExample {
          */
         // Create a Priority Queue with a custom Comparator
         PriorityQueue<String> namePriorityQueue = new PriorityQueue<>(stringLengthComparator);
-
         // Add items to a Priority Queue (ENQUEUE)
         namePriorityQueue.add("Lisa");
         namePriorityQueue.add("Abu");
@@ -39,7 +38,7 @@ public class PriorityQueueCustomComparatorExample {
 
         // Remove items from the Priority Queue (DEQUEUE)
         while (!namePriorityQueue.isEmpty()) {
-            System.out.println("Length: "+namePriorityQueue.peek().length());
+            System.out.println("Length: " + namePriorityQueue.peek().length());
             System.out.println(namePriorityQueue.remove());
         }
     }

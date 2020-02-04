@@ -22,16 +22,15 @@ public class TestMap {
 
         // Create a LinkedHashMap
         Map<String, Integer> linkedHashMap
-                = new LinkedHashMap<>(16, 0.75f, false);
+                = new LinkedHashMap<>(16, 0.75f, true);
         linkedHashMap.put("Smith", 30);
         linkedHashMap.put("Anderson", 31);
-        linkedHashMap.put("Lewis", 29);
-        linkedHashMap.put("Cook", 29);
+        linkedHashMap.put("Lewis", 30);
+        linkedHashMap.put("ZCook", 31);
 
         // Display the age for Lewis
-        System.out.println("\nThe age for " + "Lewis is "
-                + linkedHashMap.get("Lewis"));
-
+        //  System.out.println("\nThe age for " + "Lewis is "
+        //         + linkedHashMap.get("Lewis"));
         System.out.println("Display entries in LinkedHashMap");
         System.out.println(linkedHashMap);
 
