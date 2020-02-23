@@ -13,7 +13,7 @@ public class Urmi implements Runnable {
                 break;
             }
             try {
-                Thread.sleep(10);
+                Thread.sleep(1000);
             } catch (Exception e) {
             }
         }

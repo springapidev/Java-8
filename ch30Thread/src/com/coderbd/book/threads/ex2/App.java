@@ -1,14 +1,13 @@
 package com.coderbd.book.threads.ex2;
 
 public class App {
-
     public static void main(String[] args) {
         Uncle uncle = new Uncle();
         Thread uncleThread = new Thread(uncle);
         uncleThread.setName("Mr. Jamil");
         uncleThread.setPriority(1);
         uncleThread.start();
-
+        
         Urmi u = new Urmi();
         Thread urmiThread = new Thread(u);
         urmiThread.setName("Urmi");

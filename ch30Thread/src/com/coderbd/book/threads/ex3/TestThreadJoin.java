@@ -18,7 +18,7 @@ public class TestThreadJoin {
         t2.start();
         t2.join(5000);
 
-        //start third thread only when first thread is dead
+        //start third thread only when second thread is dead
         t3.start();
 
         //let all threads finish execution before finishing main thread

@@ -17,7 +17,7 @@ public class Uncle implements Runnable {
             }
             try {
             
-                Thread.sleep(15);
+                Thread.sleep(1000);
             } catch (InterruptedException ex) {
                 Logger.getLogger(Uncle.class.getName()).log(Level.SEVERE, null, ex);
             }

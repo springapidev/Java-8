@@ -75,7 +75,7 @@ public class Threadexample {
 
                     // makes the working of program easier
                     // to  understand
-                    Thread.sleep(1000);
+                    Thread.sleep(5000);
                 }
             }
         }

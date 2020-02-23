@@ -23,7 +23,7 @@ public class ThreadCooperation {
         public void run() {
             try { // Purposely delay it to let the withdraw method proceed
                 while (true) {
-                    account.deposit((int) (Math.random() * 10) + 1);
+                    account.deposit((int) (Math.random() * 1000000) + 1);
                     Thread.sleep(1000);
                 }
             } catch (InterruptedException ex) {
@@ -37,7 +37,7 @@ public class ThreadCooperation {
 
         public void run() {
             while (true) {
-                account.withdraw((int) (Math.random() * 10) + 1);
+                account.withdraw((int) (Math.random() * 1000000) + 1);
             }
         }
     }

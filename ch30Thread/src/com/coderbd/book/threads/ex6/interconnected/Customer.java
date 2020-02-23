@@ -13,12 +13,12 @@ public class Customer {
                 wait();
             } catch (Exception e) {
             }
-        }     
+        }
         this.amount -= amount;
         this.balanceAfterWithdrew = this.amount;
-        System.out.println("balanceAfterWithdrew: "+this.balanceAfterWithdrew);
+        System.out.println("balanceAfterWithdrew: " + this.balanceAfterWithdrew);
         System.out.println("withdraw completed...");
-       
+
     }
 
     synchronized void deposit(int amount) {
